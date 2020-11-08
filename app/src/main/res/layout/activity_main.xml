@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+
+    <TextView
+        android:id="@+id/refreshRateTextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:text="CURRENT REFRESH RATE "
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/refreshRateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="80sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/refreshRateTextView"
+        android:layout_marginTop="120dp"
+        android:text="Refresh"
+        android:textSize="20sp"
+        android:background="@drawable/button_custom"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/press_start_2p"
+        android:text="theviciousgames.com"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
