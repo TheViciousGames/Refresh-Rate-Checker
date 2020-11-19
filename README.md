@@ -21,5 +21,5 @@ If you want to help:
 Paypal: paypal.me/tulituvlad <br/>
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/tulituvlad)
 
-More about the app here: https://theviciousgames.com/android-apps/refresh-rate-checker-android
+More about the app here: https://theviciousgames.com/android-apps/refresh-rate-checker-android <br/>
 Website: https://theviciousgames.com
